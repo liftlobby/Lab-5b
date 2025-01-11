@@ -17,3 +17,5 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
     // Close the connection
     $db->close();
 }
+
+header("Location: read.php");
